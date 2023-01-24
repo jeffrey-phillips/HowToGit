@@ -64,3 +64,6 @@ knitr::opts_chunk$set(echo = FALSE)
     - http://www.bioinf.org.uk/teaching/splats/git.pdf
     - Git book: https://git-scm.com/book/en/v2
     - Code Academy: https://www.codecademy.com/learn/learn-git
+    
+# 10. Blank slide
+
