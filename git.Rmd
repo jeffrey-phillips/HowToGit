@@ -1,0 +1,68 @@
+---
+title: "Github tutorial"
+author: "Jeff Phillips, Ph.D."
+date: '2023-01-24'
+output: ioslides_presentation
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## 1. Reasons to use Github
+- As a public repository for analysis code & manuscripts
+- For collaborative coding projects
+- To install software packages available only on Github
+
+## 2. Getting set up
+- Get a Github education account: https://docs.github.com/en/education
+- Install git
+    - Multiple OSes and methods: https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
+
+## 3. The git model: main repo (main) plus local copies (origin)
+
+## 3. Creating a toy repository
+
+## 4. Ways to interact with Github
+- Browser
+- Command-line git
+- Github command-line interface: https://cli.github.com/ (I know nothing about this)
+- Desktop: https://docs.github.com/en/desktop (I know nothing about this)
+
+## 5. Key commands
+- clone
+- status
+- pull
+- add
+- commit
+- push
+- help
+
+## 6. Version history
+- View in browser
+- View with git log & git diff
+
+## 7. Branching & merging
+- git checkout -b newbranch
+- 3 commands to merge:
+    - git checkout main [older: git checkout master]
+    - git merge newbranch
+    - git push [origin --delete newbranch]
+    - [Optional: git remove prune origin]
+
+## 9. Other useful commands
+- Stashing or abandoning changes
+- Moving or deleting files with git
+- Check out a file from the main repo to revert changes
+- Hard reset of the whole repo
+- The log of changes and reverting to a specific commit
+
+## 10. Miscellaneous
+- What is a Github project?
+- Not so good for Office docs (Word, PPT, etc.) or files that are not plain text
+- Avoid spaces and special characters in repo & file names
+- Additional learning resources
+    - https://courses.cs.washington.edu/courses/cse403/13au/lectures/git.ppt.pdf
+    - http://www.bioinf.org.uk/teaching/splats/git.pdf
+    - Git book: https://git-scm.com/book/en/v2
+    - Code Academy: https://www.codecademy.com/learn/learn-git
