@@ -19,8 +19,6 @@ knitr::opts_chunk$set(echo = FALSE)
 - Install git
     - Multiple OSes and methods: https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
 
-## 3. The git model: main repo (main) plus local copies (origin)
-
 ## 3. Creating a toy repository
 
 ## 4. Ways to interact with Github
@@ -50,14 +48,14 @@ knitr::opts_chunk$set(echo = FALSE)
     - git push [origin --delete newbranch]
     - [Optional: git remove prune origin]
 
-## 9. Other useful commands
+## 8. Other useful commands
 - Stashing or abandoning changes
 - Moving or deleting files with git
 - Check out a file from the main repo to revert changes
 - Hard reset of the whole repo
 - The log of changes and reverting to a specific commit
 
-## 10. Miscellaneous
+## 9. Miscellaneous
 - What is a Github project?
 - Not so good for Office docs (Word, PPT, etc.) or files that are not plain text
 - Avoid spaces and special characters in repo & file names
